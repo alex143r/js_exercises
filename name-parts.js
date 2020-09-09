@@ -1,22 +1,22 @@
 "use strict";
 
-const name = "Peter Heronimous Lind";
-const firstName = name.split(' ')[0];
-console.log(firstName);
-const middleName = name.split(' ')[1];
-console.log(middleName);
-const lastName = name.split(' ')[2];
-console.log(lastName);
+const name1 = "Peter Heronimous Lind";
+const firstName1 = name1.split(' ')[0];
+console.log(firstName1);
+const middleName1 = name1.split(' ')[1];
+console.log(middleName1);
+const lastName1 = name1.split(' ')[2];
+console.log(lastName1);
 
-const name2 = "Alexander Obel Tyllesen";
+const name = "Alexander Obel Tyllesen";
 
-const indexSpace1 = name2.indexOf(" ");
-const first2 = name2.substring(0, indexSpace1);
+const indexSpace1 = name.indexOf(" ");
+const first = name.substring(0, indexSpace1);
 
-const indexSpace2 = name2.lastIndexOf(" ");
-const middle2 = name2.substring(indexSpace1 + 1, indexSpace2);
+const indexSpace2 = name.lastIndexOf(" ");
+const middle = name.substring(indexSpace1 + 1, indexSpace2);
 
-const last2 = name2.substring(indexSpace2 + 1);
-console.log(first2);
-console.log(middle2);
-console.log(last2);
+const last = name.substring(indexSpace2 + 1);
+console.log(first);
+console.log(middle);
+console.log(last);
